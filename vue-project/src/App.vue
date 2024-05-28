@@ -1,5 +1,5 @@
 <script setup>
-
+import  Home  from'../src/view/Home.vue'
 </script>
 
 <template>
@@ -39,6 +39,7 @@
     </div>
   </div>
 </nav>
+<Home></Home>
 </template>
 
 <style scoped>
