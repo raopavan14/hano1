@@ -1,5 +1,5 @@
 <script setup>
-import card from '../src/components/card.vue'
+
 </script>
 
 <template>
@@ -41,7 +41,7 @@ import card from '../src/components/card.vue'
   </div>
 </nav>
 
-<card></card>
+
 </template>
 
 <style scoped>
