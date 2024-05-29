@@ -16,7 +16,7 @@ function infoPresent() {
                             <p class="text-body-tertiary m-1"><i class="bi bi-folder-plus"></i> {{ registration }} registeration</p>
                         </div>
                         <div class="col-2  text-end align-self-center">
-                            <p class=" fw-bold me-3"><span><i class="bi bi-exclamation-triangle me-2 text-warning"></i></span>{{ time }}</p>
+                            <p class=" fw-bold me-3"><span><i class="bi bi-exclamation-triangle me-2 " :class="{'text-warning':infoPresent(),'text-primary':!infoPresent()}"></i></span>{{ time }}</p>
                         </div>
                     </div>
 

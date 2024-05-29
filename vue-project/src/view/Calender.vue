@@ -111,7 +111,7 @@ function missinginfo(info){
 </div>
 
 </div>
-<div class="col-lg-12 warn  rounded-2 p-2 shadow-sm  mt-5">
+<div class="col-lg-12 bg-warning-subtle  rounded-2 p-2 shadow-sm  mt-5">
   <span><i class="bi bi-exclamation-triangle pl-4 text"></i></span> Incomplete registration : <b>{{ missinginfo(items) }}</b>
 </div>
 
