@@ -1,5 +1,10 @@
 <script setup>
+import card from '../components/card.vue';
+import {ref} from 'vue';
 
+const items=ref([{id:1,timming:12.30,info:null,registration:2,time:2.30},
+{id:2,timming:10.30,info:{ name:'pavan',task:'learning vue'},registration:5,time:4.30},
+{id:3,timming:11.30,info:{ name:'pavan1',task:'learning vue1'},registration:1,time:3.30} ])
 </script>
 <template>
     <div class="col-9 w-100 right-side">
@@ -77,6 +82,11 @@
           </div>
           </div>
           
+
+<div v-for="item in items" :key="item.id"  >
+  <card :timming="item.timming" :info="item.info" :registration="item.registration" :time="item.time">
+  </card>
+</div>
 </template>
 <style scoped>
 

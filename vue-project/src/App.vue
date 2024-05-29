@@ -1,5 +1,7 @@
 <script setup>
-import  Home  from'../src/view/Home.vue'
+import  Home  from'../src/view/Home.vue';
+import Calender from './view/Calender.vue';
+
 </script>
 
 <template>
@@ -16,7 +18,7 @@ import  Home  from'../src/view/Home.vue'
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Calender</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,6 +43,9 @@ import  Home  from'../src/view/Home.vue'
   </div>
 </nav>
 <Home></Home>
+
+<Calender></Calender>
+
 </template>
 
 <style scoped>
